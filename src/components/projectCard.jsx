@@ -1,4 +1,3 @@
-import img from '../asserts/pexels-elina-sazonova-1927259.jpg'
 
 const ProjectCard = (params) => {
 
@@ -13,9 +12,9 @@ const ProjectCard = (params) => {
             {/* <section className='p-5 absolute inset-0 bg-black bg-opacity-60 text-white flex flex-col  opacity-0 group-hover:opacity-100 transition-all duration-500'> */}
             <section className='p-5 absolute inset-0 bg-black bg-opacity-60 text-white flex flex-col  translate-y-full group-hover:translate-y-0 transition-all duration-500'>
                 <h2 className='font-semibold text-xl pb-4'>{params.ProjectName}</h2>
-                <p className='max-w-[400px] md:max-w-[300px] text-[12px] tracking-wide'>{params.description}</p>
-                <p className='font-light text-xs tracking-wider pt-2 pb-2'>Tech used : <span>{params.techUsed}  </span></p>
-                <p className='font-normal text-sm tracking-wide me:text-[18px]'>{params.gitlink}</p>
+                <p className='max-w-[400px] text-[12px] md:text-[14px] tracking-wide'>{params.description}</p>
+                <p className='font-light text-xs md:text-[13px] tracking-wider pt-2 pb-2'>Tech used : <span>{params.techUsed}  </span></p>
+                <p className='font-normal text-sm tracking-wide md:text-[18px]'>{params.gitlink}</p>
 
 
             </section>

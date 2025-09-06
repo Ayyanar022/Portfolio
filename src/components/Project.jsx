@@ -28,8 +28,8 @@ const Project = () => {
 
 
             <section className='flex flex-col lg:flex-row  gap-10 w-full shadow-sm'>
-                <div className=' w-full lg:w-[40%] relative'>
-                    <img src={jewllery} alt="jewell" className='w-full object-contain rounded-md' />
+                <div className=' w-full lg:w-[45%] relative'>
+                    <img src={jewllery} alt="jewell" className='w-full object-cover rounded-md' />
 
 
                     <div className='bg-black opacity-0 absolute inset-0 rounded-md  hover:opacity-70 transform duration-300 flex justify-center items-center'>
@@ -38,7 +38,7 @@ const Project = () => {
                 </div>
 
 
-                <div className='w-full lg:w-50% '>
+                <div className='w-full lg:w-[55%] '>
                     <h2 className='font-semibold text-lg md:text-xl pb-4'> Jewelry Web Application – DivineGold (ADG)</h2>
                     <p className='text-sm md:text-lg max-w-[600px]'> Built a MERN stack jewelry app with dynamic pricing, admin panel, and Auth0 login. Features include an
                         Explore page, referral points system, and WhatsApp cart sharing and managing customers data as a business admin.
@@ -52,7 +52,7 @@ const Project = () => {
                     </ul>
 
                     <p className='font-light tracking-wider pt-2 pb-6 text-sm p-3 '>Tech used : <span> MERN stack ,Twailwind css, Auth0 , Cloudinary , MUI  </span></p>
-                    <a className='bg-orange-300 p-3 pl-6   ml-2  pr-6 rounded font-semibold  ' href="https://divinegold-4789.onrender.com" target='_blank'>Click Me</a>
+                    <a className='bg-orange-300 p-3 pl-6   ml-2  pr-6 rounded font-semibold  ' href="https://divinegold-4789.onrender.com" target='_blank' rel="noreferrer">Click Me</a>
 
                 </div>
             </section>

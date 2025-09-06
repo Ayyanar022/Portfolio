@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div id='about' className='flex gap-10 p-10 md:pt-20 md:pb-20 bg-gray-100 mt-16'>
             <section className='  w-[40%] hidden md:block md:bg-yellow-50 '>
-                <img className=' w-[500px]  md:pt-20 ' src={img} alt="img" />
+                <img className=' w-[400px]  md:pt-20 lg:pt-3 ' src={img} alt="img" />
             </section>
 
 
