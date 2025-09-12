@@ -16,7 +16,7 @@ const Home = () => {
                 <div className="flex gap-5 md:gap-9 mt-8 ">
 
                     <button className="text-orange-400 bg-gray-100 text-lg md:text-xl font-semibold  md:p-3 p-2  pl-6 pr-6  md:pl-8 md:pr-8 rounded-md">Hire Me</button>
-                    <a href="/Ayyanar-resume.pdf" target="_blank" className="bg-orange-300  text-lg md:text-xl p-2 font-semibold  md:p-3  pl-6 pr-6  md:pl-8 md:pr-8 rounded-md">View CV</a>
+                    <a href="/Ayyanar-React.pdf" target="_blank" className="bg-orange-300  text-lg md:text-xl p-2 font-semibold  md:p-3  pl-6 pr-6  md:pl-8 md:pr-8 rounded-md">View CV</a>
                 </div>
             </div>
 
