@@ -4,7 +4,7 @@ const About = () => {
 
 
     return (
-        <div id='about' className='flex gap-10 p-10 md:pt-20 md:pb-20 bg-gray-100 mt-16'>
+        <div id='about' className='flex gap-10 p-3 py-10 md:p-10 md:pt-20 md:pb-20 bg-gray-50  mt-16'>
             <section className='  w-[40%] hidden md:block md:bg-yellow-50 '>
                 <img className=' w-[400px]  md:pt-20 lg:pt-3 ' src={img} alt="img" />
             </section>
@@ -24,7 +24,7 @@ const About = () => {
                 </p>
 
                 {/* for mobile */}
-                <p className="md:hidden tracking-wide text-gray-700 leading-relaxed">
+                <p className="text-sm   md:hidden tracking-wide text-gray-700 leading-relaxed">
                     Passionate <span className="text-orange-400 font-medium">React.js Developer</span> with a solid foundation in creating responsive, dynamic UIs.
                     Skilled in <span className="text-orange-400 font-normal">ReactJS, JavaScript, TailwindCSS, NodeJS, ExpressJS,</span> and <span className="text-orange-400 font-normal">MySQL</span>.
                     Experienced in building projects that highlight clean design and state management.
@@ -33,41 +33,41 @@ const About = () => {
 
 
 
-                <ul className="mt-8 space-y-4">
+                <ul className="mt-8 space-y-4  w-full">
                     <li className="flex gap-6 items-center">
-                        <h3 className="font-semibold text-lg text-gray-700 w-28">👤 Name</h3>
-                        <span className="text-gray-800 text-lg">Ayyanar</span>
+                        <h3 className="font-semibold text-[16px] md:text-lg text-gray-700 w-28">👤 Name</h3>
+                        <span className="text-gray-800 text-[16px] md:text-lg">Ayyanar</span>
                     </li>
 
                     <li className="flex gap-6 items-center">
-                        <h3 className="font-semibold text-lg text-gray-700 w-28">📍 Location</h3>
-                        <span className="text-gray-800 text-lg">Chennai</span>
+                        <h3 className="font-semibold text-[16px] md:text-lg text-gray-700 w-28">📍 Location</h3>
+                        <span className="text-gray-800 text-[16px] md:text-lg">Chennai</span>
                     </li>
 
                     <li className="flex gap-6 items-center">
-                        <h3 className="font-semibold text-lg text-gray-700 w-28">📧 Email</h3>
+                        <h3 className="font-semibold text-[16px] md:text-lg text-gray-700 w-28">📧 Email</h3>
                         <a
                             href="mailto:ayan.prof022@gmail.com"
-                            className="text-orange-500 hover:underline text-lg"
+                            className="text-orange-500 hover:underline text-[16px] md:text-lg"
                         >
                             ayan.prof022@gmail.com
                         </a>
                     </li>
 
                     <li className="flex gap-6 items-center">
-                        <h3 className="font-semibold text-lg text-gray-700 w-28">📞 Mobile</h3>
-                        <a href="tel:8248834603" className="text-orange-500 hover:underline text-lg">
+                        <h3 className="font-semibold text-[16px] md:text-lg text-gray-700 w-28">📞 Mobile</h3>
+                        <a href="tel:8248834603" className="text-orange-500 hover:underline text-[16px] md:text-lg">
                             8248834603
                         </a>
                     </li>
 
                     <li className="flex gap-6 items-center">
-                        <h3 className="font-semibold text-lg text-gray-700 w-28">💻 GitHub</h3>
+                        <h3 className="font-semibold text-[16px] md:text-lg text-gray-700 w-28">💻 GitHub</h3>
                         <a
                             href="https://github.com/Ayyanar022"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-orange-500 hover:underline text-lg"
+                            className="text-orange-500 hover:underline text-[16px] md:text-lg"
                         >
                             github.com/Ayyanar022
                         </a>
